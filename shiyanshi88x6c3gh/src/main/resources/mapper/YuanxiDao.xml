@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.dao.YuanxiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yb.entity.YuanxiEntity" id="yuanxiMap">
+        <result property="yuanxi" column="yuanxi"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.yb.entity.vo.YuanxiVO" >
+		SELECT * FROM yuanxi  yuanxi         
+        <where>${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.yb.entity.vo.YuanxiVO" >
+		SELECT  yuanxi.* FROM yuanxi  yuanxi 	
+ 		<where>${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.yb.entity.view.YuanxiView" >
+
+		SELECT  yuanxi.* FROM yuanxi  yuanxi 	        
+        <where>${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.yb.entity.view.YuanxiView" >
+		SELECT * FROM yuanxi  yuanxi <where>${ew.sqlSegment}</where>
+	</select>
+	
+
+
+</mapper>

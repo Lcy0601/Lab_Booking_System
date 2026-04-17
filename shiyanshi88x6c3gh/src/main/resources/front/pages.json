@@ -1,0 +1,782 @@
+{
+	"pages": [ {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	},{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#379699",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#379699",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#379699",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/chat/chat",
+		"style": {
+			"navigationBarTitleText": "智能助手"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "通知公告详情"
+		}
+	}
+	,{
+		"path": "pages/xuesheng/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "学生"
+		}
+	},{
+		"path": "pages/xuesheng/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "学生"
+		}
+	}
+	,{
+		"path": "pages/xuesheng/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "学生"
+		}
+	}
+	,{
+		"path": "pages/jiaoshi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "教师"
+		}
+	},{
+		"path": "pages/jiaoshi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "教师"
+		}
+	}
+	,{
+		"path": "pages/jiaoshi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "教师"
+		}
+	}
+	,{
+		"path": "pages/yuanxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "院系"
+		}
+	},{
+		"path": "pages/yuanxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "院系"
+		}
+	}
+	,{
+		"path": "pages/yuanxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "院系"
+		}
+	}
+	,{
+		"path": "pages/shebeifenlei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备分类"
+		}
+	},{
+		"path": "pages/shebeifenlei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备分类"
+		}
+	}
+	,{
+		"path": "pages/shebeifenlei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备分类"
+		}
+	}
+	,{
+		"path": "pages/shiyanshebei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验设备"
+		}
+	},{
+		"path": "pages/shiyanshebei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验设备"
+		}
+	}
+	,{
+		"path": "pages/shiyanshebei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验设备"
+		}
+	}
+	,{
+		"path": "pages/shebeiyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备预约"
+		}
+	},{
+		"path": "pages/shebeiyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备预约"
+		}
+	}
+	,{
+		"path": "pages/shebeiyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备预约"
+		}
+	}
+	,{
+		"path": "pages/shebeiguihai/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备归还"
+		}
+	},{
+		"path": "pages/shebeiguihai/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备归还"
+		}
+	}
+	,{
+		"path": "pages/shebeiguihai/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备归还"
+		}
+	}
+	,{
+		"path": "pages/baofeishenqing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "报废申请"
+		}
+	},{
+		"path": "pages/baofeishenqing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "报废申请"
+		}
+	}
+	,{
+		"path": "pages/baofeishenqing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "报废申请"
+		}
+	}
+	,{
+		"path": "pages/weihujilu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "维护记录"
+		}
+	},{
+		"path": "pages/weihujilu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "维护记录"
+		}
+	}
+	,{
+		"path": "pages/weihujilu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "维护记录"
+		}
+	}
+	,{
+		"path": "pages/quxiaoshebeiyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "取消设备预约"
+		}
+	},{
+		"path": "pages/quxiaoshebeiyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "取消设备预约"
+		}
+	}
+	,{
+		"path": "pages/quxiaoshebeiyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "取消设备预约"
+		}
+	}
+	,{
+		"path": "pages/shebeishiyongbaogao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备使用报告"
+		}
+	},{
+		"path": "pages/shebeishiyongbaogao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备使用报告"
+		}
+	}
+	,{
+		"path": "pages/shebeishiyongbaogao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "设备使用报告"
+		}
+	}
+	,{
+		"path": "pages/shiyanshi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室"
+		}
+	},{
+		"path": "pages/shiyanshi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室"
+		}
+	}
+	,{
+		"path": "pages/shiyanshi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室"
+		}
+	}
+	,{
+		"path": "pages/shiyanshiyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室预约"
+		}
+	},{
+		"path": "pages/shiyanshiyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室预约"
+		}
+	}
+	,{
+		"path": "pages/shiyanshiyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室预约"
+		}
+	}
+	,{
+		"path": "pages/shiyanshiqiandao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室签到"
+		}
+	},{
+		"path": "pages/shiyanshiqiandao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室签到"
+		}
+	}
+	,{
+		"path": "pages/shiyanshiqiandao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室签到"
+		}
+	}
+	,{
+		"path": "pages/shiyanshiqiantui/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室签退"
+		}
+	},{
+		"path": "pages/shiyanshiqiantui/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室签退"
+		}
+	}
+	,{
+		"path": "pages/shiyanshiqiantui/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室签退"
+		}
+	}
+	,{
+		"path": "pages/quxiaoshiyanshiyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "取消实验室预约"
+		}
+	},{
+		"path": "pages/quxiaoshiyanshiyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "取消实验室预约"
+		}
+	}
+	,{
+		"path": "pages/quxiaoshiyanshiyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "取消实验室预约"
+		}
+	}
+	,{
+		"path": "pages/shiyanshipingjia/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室评价"
+		}
+	},{
+		"path": "pages/shiyanshipingjia/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室评价"
+		}
+	}
+	,{
+		"path": "pages/shiyanshipingjia/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室评价"
+		}
+	}
+	,{
+		"path": "pages/anquanyinhuan/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "安全隐患"
+		}
+	},{
+		"path": "pages/anquanyinhuan/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "安全隐患"
+		}
+	}
+	,{
+		"path": "pages/anquanyinhuan/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "安全隐患"
+		}
+	}
+	,{
+		"path": "pages/yinhuanchuli/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "隐患处理"
+		}
+	},{
+		"path": "pages/yinhuanchuli/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "隐患处理"
+		}
+	}
+	,{
+		"path": "pages/yinhuanchuli/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "隐患处理"
+		}
+	}
+	,{
+		"path": "pages/xunchajilu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "巡查记录"
+		}
+	},{
+		"path": "pages/xunchajilu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "巡查记录"
+		}
+	}
+	,{
+		"path": "pages/xunchajilu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "巡查记录"
+		}
+	}
+	,{
+		"path": "pages/shiyanzhidao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验指导"
+		}
+	},{
+		"path": "pages/shiyanzhidao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验指导"
+		}
+	}
+	,{
+		"path": "pages/shiyanzhidao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验指导"
+		}
+	}
+	,{
+		"path": "pages/zhishileixing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "知识类型"
+		}
+	},{
+		"path": "pages/zhishileixing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "知识类型"
+		}
+	}
+	,{
+		"path": "pages/zhishileixing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "知识类型"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "通知公告"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "通知公告"
+		}
+	}
+	,{
+		"path": "pages/chathelper/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "聊天助手表"
+		}
+	},{
+		"path": "pages/chathelper/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "聊天助手表"
+		}
+	}
+	,{
+		"path": "pages/chathelper/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "聊天助手表"
+		}
+	}
+	,{
+		"path": "pages/syslog/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "系统日志"
+		}
+	},{
+		"path": "pages/syslog/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "系统日志"
+		}
+	}
+	,{
+		"path": "pages/syslog/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "系统日志"
+		}
+	}
+	,{
+		"path": "pages/popupremind/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "弹窗提醒"
+		}
+	},{
+		"path": "pages/popupremind/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "弹窗提醒"
+		}
+	}
+	,{
+		"path": "pages/popupremind/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "弹窗提醒"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收藏表"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收藏表"
+		}
+	}
+	,{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收藏表"
+		}
+	}
+	,{
+		"path": "pages/users/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "管理员"
+		}
+	},{
+		"path": "pages/users/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "管理员"
+		}
+	}
+	,{
+		"path": "pages/users/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "管理员"
+		}
+	}
+	,{
+		"path": "pages/discussshiyanshi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室评论"
+		}
+	},{
+		"path": "pages/discussshiyanshi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室评论"
+		}
+	}
+	,{
+		"path": "pages/discussshiyanshi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验室评论"
+		}
+	}
+	,{
+		"path": "pages/discussshiyanzhidao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验指导评论"
+		}
+	},{
+		"path": "pages/discussshiyanzhidao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验指导评论"
+		}
+	}
+	,{
+		"path": "pages/discussshiyanzhidao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "实验指导评论"
+		}
+	}
+	,{
+		"path": "common/linkOthers/linkOthers",
+		"style": {
+			"navigationBarBackgroundColor": "#298284",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "基于SpringBoot的高校开放式计算机实验室综合管理平台的设计与实现",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#D5D3D3",
+		"selectedColor": "#FFFFFF",
+		"borderStyle": "white",
+		"backgroundColor": "#298284",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+
+
+
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

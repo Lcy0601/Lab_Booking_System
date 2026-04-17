@@ -1,0 +1,177 @@
+package com.yb.entity.vo;
+
+import com.yb.entity.JiaoshiEntity;
+
+import com.baomidou.mybatisplus.annotation.TableName;
+import java.util.Date;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import java.io.Serializable;
+ 
+
+/**
+ * 教师
+ * @author 
+ * @email 
+ * @date 2026-04-08 22:34:05
+ */
+public class JiaoshiVO  implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	 			
+	/**
+	 * 教师姓名
+	 */
+	
+	private String jiaoshixingming;
+		
+	/**
+	 * 密码
+	 */
+	
+	private String mima;
+		
+	/**
+	 * 性别
+	 */
+	
+	private String xingbie;
+		
+	/**
+	 * 联系电话
+	 */
+	
+	private String lianxidianhua;
+		
+	/**
+	 * 头像
+	 */
+	
+	private String touxiang;
+		
+	/**
+	 * 院系
+	 */
+	
+	private String yuanxi;
+		
+	/**
+	 * 专业方向
+	 */
+	
+	private String zhuanyefangxiang;
+				
+	
+	/**
+	 * 设置：教师姓名
+	 */
+	 
+	public void setJiaoshixingming(String jiaoshixingming) {
+		this.jiaoshixingming = jiaoshixingming;
+	}
+	
+	/**
+	 * 获取：教师姓名
+	 */
+	public String getJiaoshixingming() {
+		return jiaoshixingming;
+	}
+				
+	
+	/**
+	 * 设置：密码
+	 */
+	 
+	public void setMima(String mima) {
+		this.mima = mima;
+	}
+	
+	/**
+	 * 获取：密码
+	 */
+	public String getMima() {
+		return mima;
+	}
+				
+	
+	/**
+	 * 设置：性别
+	 */
+	 
+	public void setXingbie(String xingbie) {
+		this.xingbie = xingbie;
+	}
+	
+	/**
+	 * 获取：性别
+	 */
+	public String getXingbie() {
+		return xingbie;
+	}
+				
+	
+	/**
+	 * 设置：联系电话
+	 */
+	 
+	public void setLianxidianhua(String lianxidianhua) {
+		this.lianxidianhua = lianxidianhua;
+	}
+	
+	/**
+	 * 获取：联系电话
+	 */
+	public String getLianxidianhua() {
+		return lianxidianhua;
+	}
+				
+	
+	/**
+	 * 设置：头像
+	 */
+	 
+	public void setTouxiang(String touxiang) {
+		this.touxiang = touxiang;
+	}
+	
+	/**
+	 * 获取：头像
+	 */
+	public String getTouxiang() {
+		return touxiang;
+	}
+				
+	
+	/**
+	 * 设置：院系
+	 */
+	 
+	public void setYuanxi(String yuanxi) {
+		this.yuanxi = yuanxi;
+	}
+	
+	/**
+	 * 获取：院系
+	 */
+	public String getYuanxi() {
+		return yuanxi;
+	}
+				
+	
+	/**
+	 * 设置：专业方向
+	 */
+	 
+	public void setZhuanyefangxiang(String zhuanyefangxiang) {
+		this.zhuanyefangxiang = zhuanyefangxiang;
+	}
+	
+	/**
+	 * 获取：专业方向
+	 */
+	public String getZhuanyefangxiang() {
+		return zhuanyefangxiang;
+	}
+			
+}

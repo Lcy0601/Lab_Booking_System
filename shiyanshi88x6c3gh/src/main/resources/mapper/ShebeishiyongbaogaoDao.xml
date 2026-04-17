@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yb.dao.ShebeishiyongbaogaoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yb.entity.ShebeishiyongbaogaoEntity" id="shebeishiyongbaogaoMap">
+        <result property="yuyuebianhao" column="yuyuebianhao"/>
+        <result property="shebeibianhao" column="shebeibianhao"/>
+        <result property="shebeimingcheng" column="shebeimingcheng"/>
+        <result property="shebeifenlei" column="shebeifenlei"/>
+        <result property="yuanxi" column="yuanxi"/>
+        <result property="fengmian" column="fengmian"/>
+        <result property="xinghao" column="xinghao"/>
+        <result property="shangbaoshijian" column="shangbaoshijian"/>
+        <result property="xueshengxuehao" column="xueshengxuehao"/>
+        <result property="xueshengxingming" column="xueshengxingming"/>
+        <result property="shoujihao" column="shoujihao"/>
+        <result property="shiyongqingkuang" column="shiyongqingkuang"/>
+        <result property="haosunfankui" column="haosunfankui"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.yb.entity.vo.ShebeishiyongbaogaoVO" >
+		SELECT * FROM shebeishiyongbaogao  shebeishiyongbaogao         
+        <where>${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.yb.entity.vo.ShebeishiyongbaogaoVO" >
+		SELECT  shebeishiyongbaogao.* FROM shebeishiyongbaogao  shebeishiyongbaogao 	
+ 		<where>${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.yb.entity.view.ShebeishiyongbaogaoView" >
+
+		SELECT  shebeishiyongbaogao.* FROM shebeishiyongbaogao  shebeishiyongbaogao 	        
+        <where>${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.yb.entity.view.ShebeishiyongbaogaoView" >
+		SELECT * FROM shebeishiyongbaogao  shebeishiyongbaogao <where>${ew.sqlSegment}</where>
+	</select>
+	
+
+
+</mapper>
