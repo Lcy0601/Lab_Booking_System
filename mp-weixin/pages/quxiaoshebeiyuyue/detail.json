@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#298284",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "取消设备预约",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

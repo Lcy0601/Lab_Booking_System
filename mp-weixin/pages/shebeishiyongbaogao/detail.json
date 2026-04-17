@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#298284",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "设备使用报告",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

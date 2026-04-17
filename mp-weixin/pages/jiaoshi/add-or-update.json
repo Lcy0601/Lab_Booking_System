@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#298284",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "教师",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "xia-editor": "/components/xia-editor/xia-editor",
+    "multiple-select": "/components/momo-multipleSelect/momo-multipleSelect"
+  }
+}
